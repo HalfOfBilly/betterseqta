@@ -32,7 +32,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://*.edu.au/*"
+                "https://*.edu.au/*",
+                "https://*.onseqtacloud.com/*",
             ],
             "js": [
                 "SEQTA.js"
